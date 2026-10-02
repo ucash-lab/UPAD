@@ -1,4 +1,4 @@
-import * as wallet from './wallet.js?v=c5eb5f50c7e3';
+import * as wallet from './wallet.js?v=546c45609408';
 import { renderYapperReport } from './yappers.js';
 import { installIcons } from './icons.js';
 import { prepareImage } from './artwork.js';
