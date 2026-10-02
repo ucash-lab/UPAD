@@ -1,0 +1,44 @@
+{
+  "name": "upad",
+  "version": "1.0.0",
+  "private": true,
+  "description": "UPAD Solana launchpad — powered by UCASH",
+  "main": "server/launchpad-server.js",
+  "scripts": {
+    "start": "node server/launchpad-server.js",
+    "dev": "node server/launchpad-server.js",
+    "test": "node --test tests/*.test.cjs",
+    "build:wallet": "node scripts/build-wallet.cjs"
+  },
+  "dependencies": {
+    "@meteora-ag/cp-amm-sdk": "1.4.10",
+    "@meteora-ag/dynamic-bonding-curve-sdk": "1.5.13",
+    "@solana/spl-token": "0.4.14",
+    "@solana/wallet-adapter-coin98": "0.5.25",
+    "@solana/wallet-adapter-coinbase": "0.1.24",
+    "@solana/wallet-adapter-ledger": "0.9.30",
+    "@solana/wallet-adapter-phantom": "0.9.30",
+    "@solana/wallet-adapter-react": "0.15.40",
+    "@solana/wallet-adapter-react-ui": "0.9.40",
+    "@solana/wallet-adapter-solflare": "0.6.34",
+    "@solana/wallet-adapter-trust": "0.1.18",
+    "@solana/web3.js": "1.99.0",
+    "@wallet-standard/app": "1.1.1",
+    "bn.js": "5.2.5",
+    "buffer": "6.0.3",
+    "dotenv": "^16.4.5",
+    "pg": "^8.23.0",
+    "react": "19.3.0",
+    "react-dom": "19.3.0"
+  },
+  "devDependencies": {
+    "esbuild": "0.28.2"
+  },
+  "overrides": {
+    "uuid": "11.1.1",
+    "toml": "4.2.0"
+  },
+  "engines": {
+    "node": ">=24.12.0"
+  }
+}

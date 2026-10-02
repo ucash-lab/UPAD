@@ -1,0 +1,22 @@
+.standard-wallet-control{display:flex;align-items:center}
+.standard-wallet-control .wallet-adapter-button{height:auto;min-height:44px;padding:12px 18px;border:1px solid #252b23;border-radius:999px;background:#252b23;color:#fff;font-family:inherit;font-size:13px;font-weight:600;line-height:1.2;white-space:nowrap}
+.standard-wallet-control .wallet-adapter-button:hover{background:#536543}
+.wallet-adapter-modal-wrapper{font-family:inherit;border:1px solid #d9ddcf!important;border-radius:28px!important;background:#f5f6ef!important;box-shadow:0 25px 80px #20251e33!important}
+.wallet-adapter-modal-title{font-family:inherit!important;color:#20251e!important}
+.wallet-adapter-modal-list li{border-color:#d9ddcf!important;background:#fff!important;border-radius:17px!important}
+.wallet-adapter-modal-list .wallet-adapter-button{color:#20251e;font-family:inherit}
+.wallet-adapter-modal-list .wallet-adapter-button span{color:#536543}
+.wallet-adapter-modal-list li:hover{background:#edf0e5!important}
+.wallet-adapter-modal-button-close{background:#e7ebdf!important;color:#20251e!important;border-radius:50%!important}
+.wallet-adapter-modal-button-close svg{fill:currentColor}
+.wallet-adapter-modal-list-more{color:#536543!important}
+.wallet-help{padding:10px 5vw;font-size:13px;border-bottom:1px solid #d9ddcf;background:#eef0e5;color:#35432c}
+.wallet-help summary{cursor:pointer}.wallet-help p{max-width:850px;line-height:1.6}
+.wallet-gesture-boundary{display:flex;flex-direction:column;align-items:flex-end;gap:8px}
+.mobile-wallet-actions{display:flex;flex-wrap:wrap;gap:6px;justify-content:flex-end;max-width:270px}
+.mobile-wallet-actions>span{width:100%;font-size:11px;color:#536543;text-align:right}
+.mobile-wallet-link{display:inline-flex;align-items:center;gap:6px;padding:8px 10px;min-height:44px;border:1px solid #d9ddcf;border-radius:18px;color:#20251e;background:#f5f6ef;font-size:12px;text-decoration:none}
+.mobile-wallet-link:focus-visible{outline:2px solid #536543;outline-offset:3px}
+.header:has(.mobile-wallet-actions){height:auto;min-height:130px;padding-top:12px;padding-bottom:12px;gap:10px}
+@media(max-width:650px){.mobile-wallet-actions{max-width:190px}.mobile-wallet-actions>span{font-size:10px}.header:has(.mobile-wallet-actions){padding-left:14px;padding-right:14px;gap:8px}.mobile-wallet-link{padding:8px;font-size:11px}}
+@media(max-width:650px){.standard-wallet-control .wallet-adapter-button{padding:10px 13px;font-size:12px}.wallet-adapter-modal-wrapper{max-width:calc(100vw - 28px)!important}}

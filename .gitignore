@@ -1,0 +1,10 @@
+.env
+.env.*
+!.env.example
+node_modules/
+.vercel/
+.launchpad-data/
+.npm-cache/
+*.sqlite
+*.sqlite-*
+*.log
